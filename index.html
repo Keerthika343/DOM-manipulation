@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/logo2.png">
+            <h1>BTS</h1>
+        </header>
+        <div class="background">
+        <div class="bts">
+            <p>BTS, an acronym of Bangtan Sonyeondan or “Beyond the Scene,” is a Grammy-nominated South Korean group that has been capturing the hearts of millions of fans globally since its debut in June 2013.
+                The members of BTS are RM, Jin, SUGA, j-hope, Jimin, V, and Jung Kook. Gaining recognition for their authentic and self-produced music, top-notch performances, and the way they interact with their fans, BTS has established themselves as “21st century Pop Icons” breaking countless world records.</p>
+                <h3>About Members</h3>
+        </div>
+        <div class="article">
+        <div class="names">
+            <form>
+                <input type="radio" name="radio" onclick="fun('jimin')" checked="true">
+                <label>Jimin</label><br>
+                <input type="radio"  name="radio" onclick="fun('v')">
+                <label>V</label><br>
+                <input type="radio"  name="radio" onclick="fun('rm')">
+                <label>RM</label><br>
+                <input type="radio"  name="radio" onclick="fun('jhope')">
+                <label>J-hope</label><br>
+                <input type="radio"  name="radio" onclick="fun('suga')">
+                <label>Suga</label><br>
+                <input type="radio"  name="radio" onclick="fun('jin')">
+                <label>jin</label><br>
+                <input type="radio"  name="radio" onclick="fun('jungkook')">
+                <label>jungkook</label>
+            </form>
+         </div>
+        <div class="content">
+                <h3 id="default1">Name:JIMIN</h3>
+                <h4 id="default2">Age:30</h4>
+                <p id="default">Jimin. Jimin always made an impression through his elegant dance moves and distinct falsettos, giving an aesthetic flair to all of BTS' releases. The Busan-born artist also showcased more of his talents through three solo tracks under the group's name: 2016's."</p>
+                <h3 id="memname"></h3>
+                <h4 id="memage"></h4>
+                <p id="info"></p>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
